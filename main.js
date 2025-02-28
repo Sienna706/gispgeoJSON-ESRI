@@ -5,7 +5,7 @@ require([
 ], function(Map, MapView, GeoJSONLayer) {
 
   // URL to the new GeoJSON file
-  const geojsonUrl = "file:///Users/siennasilvest/Desktop/map%20copy.geojson"; // Update this line with the path to your new GeoJSON file
+  const geojsonUrl = "./MegaCities (4).geojson"; // Update this line with the path to your new GeoJSON file
 
   // Create a GeoJSON layer
   const geojsonLayer = new GeoJSONLayer({
@@ -22,7 +22,7 @@ require([
   const view = new MapView({
     container: "viewDiv",
     map: map,
-    center: [-100.33, 25.69], // Longitude, latitude
-    zoom: 3
+    center: [0, 0], // Longitude, latitude
+    zoom: 2 // Zoom level for a global view
   });
 });
