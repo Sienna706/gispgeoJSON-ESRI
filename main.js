@@ -5,7 +5,7 @@ require([
 ], function(Map, MapView, GeoJSONLayer) {
 
   // URL to the new GeoJSON file
-  const geojsonUrl = "https://arcg.is/iKS9S"; // Update this line with the path to your new GeoJSON file
+  const geojsonUrl = "file:///Users/siennasilvest/Desktop/map%20copy.geojson"; // Update this line with the path to your new GeoJSON file
 
   // Create a GeoJSON layer
   const geojsonLayer = new GeoJSONLayer({
